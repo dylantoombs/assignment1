@@ -144,3 +144,11 @@ footer {
 footer a {
     color: white;
 }
+
+li {
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: futura, arial, sans-serif;
+    color: white;
+    padding: 0 12%; 
+}
