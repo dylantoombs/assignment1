@@ -27,11 +27,13 @@ figcaption {
 }
 
 img {
+    overflow: hidden;
 	width: 100%;
     display: block;
     border-style: solid;
     border-color: DodgerBlue;
     border-bottom-width:.5rem;
+    height: auto;
 }
 
 body {
@@ -51,10 +53,14 @@ article {
 h1 {
     font-family:'Nexa-XBold', Couture, Coolvetica, Revolution, Futura, Sans-Serif;
     font-weight:normal;
-    font-size:1.25rem;
     line-height:2.5rem;
     margin:2rem 0;
     color: white;
+    font-size: 2.5rem;
+    margin: .5rem 0;
+    line-height: 2.5rem;
+    padding: 0 2.5%;
+    font-kerning:auto;
 }
 
 body {
@@ -64,7 +70,7 @@ body {
 }
 
 .masthead {
-    background-color: DimGray;
+    background-color: DodgerBlue;
     overflow: hidden;
 }
 
@@ -80,15 +86,6 @@ article {
     margin: 0;
     padding: 0 0%;
     overflow: hidden;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: .5rem 0;
-    line-height: 2.5rem;
-    padding: 0 2.5%;
-    font-kerning:auto;
-    font-family: courture ,revolution, arial sans-serif;
 }
 
 h2 {
@@ -117,6 +114,33 @@ p {
     font-weight:bold;
     font-family: revolution, courture, helvetica, sans-serif;
     float:left;
-    margin:3rem .5rem 1rem 0;
+    margin:2rem .1rem 3rem 0;
     color:DodgerBlue
+}
+
+details {
+    margin:0 1.5rem 1.5rem;
+    color: white;
+}
+
+h3 {
+   line-height: 1.5rem;
+    margin: 0 0 0rem;
+    font-family: futura, arial, sans-serif;
+    color: DodgerBlue;
+    padding: 0 6%; 
+    text-shadow:.15rem .15rem .05rem rgba(0, 0, 0, .4)
+
+}
+
+footer {
+    background-color: DodgerBlue;
+    overflow: hidden;
+    font-size: 1rem;
+    margin: 0rem 0% 0rem;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
