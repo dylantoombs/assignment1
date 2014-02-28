@@ -79,7 +79,6 @@ body {
     width: auto;
     margin:2rem 3rem;
     border-style: none;
-    /* margin: .5rem auto; */
 }
 
 article {
@@ -125,7 +124,6 @@ h3 {
     color: DodgerBlue;
     padding: 0 6%; 
     text-shadow:.15rem .15rem .05rem rgba(0, 0, 0, .4)
-
 }
 
 footer {
